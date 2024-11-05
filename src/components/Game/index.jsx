@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { generateSquares, clearAllIntervals } from "./utils";
 
 import Square from "./Square";
-import Header from "./header";
+import Header from "./HeaderGame";
 
 const Board = () => {
   const containerRef = useRef(null);
